@@ -95,7 +95,7 @@ echo $a << $b;
 
 ## Operador Deslocar à direita `>>`
 Desloca os bits de $a, $b passos para a direita (cada passo significa "divide por dois");
-Ou seja, `$a << 7`, é o mesmo que dividir `$a` por 2 `sete vezes`.
+Ou seja, `$a >> 7`, é o mesmo que dividir `$a` por 2 `sete vezes`.
 
 ```php
 <?php
